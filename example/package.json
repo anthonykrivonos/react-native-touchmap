@@ -1,0 +1,48 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-touchmap": "file:.."
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/react": "^16.8.10",
+    "@types/react-native": "^0.57.42",
+    "@types/react-navigation": "^3.0.6",
+    "@types/react-redux": "^7.0.5",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-preset-expo": "^5.0.0",
+    "react-native-typescript-transformer": "^1.2.12",
+    "ts-jest": "^24.0.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.1"
+  },
+  "private": true,
+  "name": "react-native-touchmap-example",
+  "version": "1.0.0",
+  "description": "Heatmap example to track touches in React Native.",
+  "keywords": [
+    "react",
+    "native",
+    "heatmap",
+    "touchmap",
+    "analytics",
+    "metrics",
+    "touches",
+    "touch",
+    "taps",
+    "tap",
+    "generator"
+  ],
+  "author": "Anthony Krivonos",
+  "license": "ISC"
+}

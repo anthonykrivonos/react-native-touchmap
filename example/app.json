@@ -1,0 +1,17 @@
+{
+    "expo": {
+      "sdkVersion": "32.0.0",
+      "name": "React Native Touchmap",
+      "description": "View touch-based analytics in React Native!",
+      "slug": "react-native-touchmap",
+      "privacy": "public",
+      "version": "1.0.0",
+      "packagerOpts": {
+        "sourceExts": [
+          "ts",
+          "tsx"
+        ],
+        "transformer": "node_modules/react-native-typescript-transformer/index.js"
+      }
+    }
+}
